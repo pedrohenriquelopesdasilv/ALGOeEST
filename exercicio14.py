@@ -1,8 +1,6 @@
-nome_certo="admin"
-senha_certo=1234
-nome=int(input("insira um nome de usuario"))
-senha=int(input("insira sua senha"))
-if nome == nome_certo and senha_certo == senha:
-     print("bem vindo!")
+usuario=input("Insira o nome de usuário:")
+senha=input("Insira a senha:")
+if usuario == "admin" and senha == "1234":
+    print("Bem-Vindo a sua conta bancária")
 else:
-     print("usuario ou senha invalidos")
+    print("Usuário ou senha incorreta")

@@ -1,3 +1,6 @@
-nome = input("digite seu nome:")
-idade = input("digite sua idade:")
-print(f"ola {nome}! você tem {idade} anos")
+nome=input("Insira seu nome:")
+idade=(int(input("Insira sua idade: ")))
+
+
+print(f"Olá, {nome}! Você tem {idade} anos")
+

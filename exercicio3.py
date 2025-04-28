@@ -1,6 +1,13 @@
-num1 = int(input("leia o primeiro numero:"))
-num2 = int(input("leia o segundo numero:"))
-soma = num1+num2
-sub = num1-num2
-mult = num1*num2
-print(f"a soma deles é {soma}, a subtracao deles é {sub}, a multiplicacao deles é {mult}")
+num1=int(input("Insira o primeiro número: "))
+num2=int(input("Insira o segundo número: "))
+
+# soma=num1+num2
+# sub=num1-num2
+# mult=num1*num2
+# print(f"A soma deles é: {soma}, a subtração é: {sub}, a multiplicação é: {mult}")
+
+if num1>num2:
+    print(num1)
+else:
+    print(num2)
+
